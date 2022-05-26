@@ -1,6 +1,6 @@
 "use strict";
 
-/* let numberOfFilms;
+ let numberOfFilms;
 
 function start() {
   numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
@@ -54,6 +54,7 @@ function detectPersonalLevel() {
 
 detectPersonalLevel();
 
+
 function showMyDB(hidden) {
   if (!hidden) {
     console.log(personalMovieDB);
@@ -63,22 +64,9 @@ function showMyDB(hidden) {
 showMyDB(personalMovieDB.privat);
 
 function writeYourGenres() {
-  for(let i = 1; i <= 3; i++) {
-    personalMovieDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`);
+  for(let i=1;i<=3;i++){
+    const c = prompt(`Ваш любимый жанр под номером ${i}`);
+    personalMovieDB.genres[i-1] = c;
   }
 }
-
-writeYourGenres(); */
-
-function setAlarm(employed, vacation){
-  employed = prompt(" ", "");
-  vacation = prompt(" ", "");
-  if (employed == 'true' && vacation == 'false') {
-    console.log("true");
-  }
-  else {
-    console.log("false");
-  }
-}
-
-setAlarm();
+writeYourGenres();
