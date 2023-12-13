@@ -56,14 +56,34 @@
 // }
 
 
-let btn = document.querySelector("button");
+// let btn = document.querySelector("button");
+//
+// btn.onclick = function () {
+//     let userName = document.querySelector('.name').value;
+//     let userSurname = document.querySelector('.surname').value;
+//     let userAge = document.querySelector('.age').value;
+//     let userHobby = document.querySelector('.hobby').value;
+//     document.querySelector("h2").innerHTML = 'Уважаемый ' + userName + ', ' + userSurname
+//         + ', ваш возраст ' + userAge + ' года, ваше хобби: ' + userHobby;
+// }
 
-btn.onclick = function () {
-    let userName = document.querySelector('.name').value;
-    let userSurname = document.querySelector('.surname').value;
-    let userAge = document.querySelector('.age').value;
-    let userHobby = document.querySelector('.hobby').value;
-    document.querySelector("h2").innerHTML = 'Уважаемый ' + userName + ', ' + userSurname
-        + ', ваш возраст ' + userAge + ' года, ваше хобби: ' + userHobby;
+///// lesson 2
+
+
+let btn = document.querySelector("button");
+let input = document.querySelector('.i-1');
+let h = document.querySelector("h2");
+function f1() {
+    let value = +input.value;
+    if (value == 4 ) {
+        h.innerHTML = true;
+
+    }
+    else {
+        h.innerHTML = false;
+    }
+
+
 }
 
+btn.onclick = f1;
