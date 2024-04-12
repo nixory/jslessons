@@ -184,7 +184,22 @@ let a9 = {
 };
 
 function f9() {
+        let b = document.querySelector('.i-9').value;
+    console.log(b)
 
+        let out = '';
+        for (let key in a9) {
+
+            console.log(counter)
+            if ( a9[key] == b) {
+                out+=a9[key]+' ';
+
+            }
+            c
+
+
+        }
+        document.querySelector('.out-9').innerHTML = out;
 }
 
 document.querySelector('.b-9').onclick = f9;
