@@ -208,7 +208,9 @@ document.querySelector('.b-9').onclick = f9;
 // Давайте напишем полезную функцию f10, которая проверяет есть ли значение в ассоциативном массиве. Фукнция должна возвращать true если есть, и false если нет. Массив и значение передавать функции в качестве параметров.
 
 function f10(arr, val) {
-
+    for ( let key in arr) {
+        return arr[key] == val;
+    }
     //return true;
     //return false;
 }
@@ -219,7 +221,7 @@ document.querySelector('.b-10').onclick = () => {
         "d": 54,
         "m": 22,
     }
-    document.querySelector('.out-10').innerHTML = f10(a10, 22);
+    document.querySelector('.out-10').innerHTML = f10(a10, 23);
 };
 
 
@@ -235,6 +237,15 @@ let a11 = {
 };
 
 function f11() {
+    let value = document.querySelector('.i-11').value;
+    for ( let key in a11) {
+        if (a11[key] == value) {
+            delete a11[key];
+        }
+    }
+    f5(a11, '.out-11');
+
+
 }
 
 document.querySelector('.b-11').onclick = f11;
@@ -251,7 +262,13 @@ let a12 = {
 };
 
 function f12() {
-
+    let value = document.querySelector('.i-12').value;
+    for ( let key in a12) {
+        if (a12[key] == value || key == value) {
+            delete a12[key];
+        }
+    }
+    f5(a12, '.out-12');
 }
 
 document.querySelector('.b-12').onclick = f12;
@@ -267,7 +284,14 @@ let a13 = {
 };
 
 function f13() {
+    let sum = 0;
+    for ( let key in a13 ){
+        if (typeof a13[key] === 'number') {
+            sum += a13[key];
+        }
 
+    }
+    document.querySelector('.out-13').innerHTML = sum;
 }
 
 document.querySelector('.b-13').onclick = f13;
@@ -284,7 +308,14 @@ let a14 = {
 };
 
 function f14() {
-
+    let out = '';
+    for ( let key in a14) {
+        out += a14[key][0]
+        // if (a14[key][0]) {
+        //     out += a14[key][0]
+        // }
+    }
+    document.querySelector('.out-14').innerHTML = out;
 }
 
 document.querySelector('.b-14').onclick = f14;
@@ -302,7 +333,11 @@ let a15 = {
 };
 
 function f15() {
-
+    let out = '';
+    for ( let key in a15) {
+        out += `${a15[key].join(' ')} <br>`
+    }
+    document.querySelector('.out-15').innerHTML = out;
 }
 
 document.querySelector('.b-15').onclick = f15;
@@ -326,7 +361,11 @@ let a16 = {
 }
 
 function f16() {
-
+    let out = '';
+    for ( let key in a16) {
+        out += `${a16[key]['name']} `
+    }
+    document.querySelector('.out-16').innerHTML = out;
 }
 
 document.querySelector('.b-16').onclick = f16;
@@ -351,6 +390,14 @@ let a17 = {
 }
 
 function f17() {
+    let out = '';
+    for ( let key in a17) {
+        if (a17[key]['age'] < 30) {
+            out += `${a17[key]['name']} `
+        }
+
+    }
+    document.querySelector('.out-17').innerHTML = out;
 
 }
 
@@ -366,8 +413,29 @@ let a18 = {
 }
 
 function f18() {
+    let expr = document.querySelector('.i-18' ).value;
+    console.log(expr);
+    let out = '';
 
+        switch (expr) {
+            case "red":
+                out += `${a18.red} `
+                break;
+            case "blue":
+                out += `${a18.blue} `
+                break;
+            case "green":
+                out += `${a18.green} `
+                break;
+            default:
+                out += ` `
+                break;
+        }
+
+
+    document.querySelector('.out-18').innerHTML = out;
 }
+document.querySelector('.b-18').onclick = f18;
 
 // Task 19
 // При нажатии b-19 выполняете функцию f19. Функция должна в out-19 вывести цвет ветки станции которую пользователь ввел в i-19. Пользователь может вводить текст как с большой, так и с маленькой буквы. Если ветка не найдена - выводите пустую строку.
@@ -380,7 +448,19 @@ let a19 = {
 }
 
 function f19() {
-
+    let expr = document.querySelector('.i-19' ).value.toLowerCase();
+    console.log(expr);
+    let out = '';
+    for (let key in a19) {
+        if (expr == key) {
+            out += key
+            break;
+        }
+        else {
+            out += " idi nah"
+        }
+    }
+    document.querySelector('.out-19').innerHTML = out;
 }
 
 document.querySelector('.b-19').onclick = f19;
@@ -395,7 +475,20 @@ let a20 = {
 }
 
 function f20() {
+    let out = '';
+    for ( let key in a20) {
+        for (let i =0; i< a20[key].length; i++){
 
+            for ( let k = 0; k < a20[key][i].length; k++) {
+                console.log(a20[key][i][k])
+                if (a20[key][i][k] == 2) {
+                    out += a20[key][i][0];
+                }
+            }
+        }
+
+    }
+    document.querySelector('.out-20').innerHTML = out;
 }
 
 document.querySelector('.b-20').onclick = f20
