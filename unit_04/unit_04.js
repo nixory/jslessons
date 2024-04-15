@@ -2,7 +2,15 @@
 // Создайте button.b-1 - при нажатии на него выводите alert с номером задачи. Номер задачи просто пропишите вручную.
 
 function f1() {
-    alert("1")
+    const mySet = new Set([1, 2, 2, 3, 4, 4, 5]);
+    let out = 0;
+    for (const item of mySet) {
+        console.log(item);
+
+        out += item;
+        console.log(out)
+    }
+    document.querySelector('.out-4').innerHTML = out;
 }
 
 document.querySelector('.b-1').onclick = f1;
@@ -221,3 +229,7 @@ function f20(e) {
 }
 
 document.querySelector('.b-20').onclick = f20;
+
+
+
+
