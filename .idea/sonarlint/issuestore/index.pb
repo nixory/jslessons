@@ -25,8 +25,6 @@ G.idea/sonarlint/issuestore/b/4/b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3,b\0\b0
 w
 G.idea/sonarlint/issuestore/b/1/b1f6dcbd2e2c883908299482b4c81ba86ca994cc,2\5\254aeb0d6edb6b016795a282dc64760f5e1d336b
 w
-G.idea/sonarlint/issuestore/4/8/48b897d8810b8583ab2abbada39bf412437f0056,9\e\9e5c560bc474cdc3ce632aa44f6ec0f33bc572ea
-w
 G.idea/sonarlint/issuestore/4/3/4392aedf55cebee3debe60d140e2ffc1d078f53f,1\9\191a177e3c24a525785b91014d76369949674718
 w
 G.idea/sonarlint/issuestore/4/9/492eccbe5c3ef21adf2e66be14acf5ccf6cca418,6\f\6f0cb0dac4974486c220edbf18d4d142752479c3
@@ -41,8 +39,6 @@ D
 B
 unit_05/unit_05.js,1\e\1ee192a9d8fad95634533aedcd253b33afb54632
 w
-G.idea/sonarlint/issuestore/c/8/c822a1d9345b6e13cf5a1906cd0e5e1a86881da6,4\b\4b205685ab554ac05a2104d6113d7d19e71fa4eb
-w
 G.idea/sonarlint/issuestore/2/5/254aeb0d6edb6b016795a282dc64760f5e1d336b,f\3\f3251bb26f2baad3824bc3e987fa2b372489f269
 w
 G.idea/sonarlint/issuestore/0/c/0c71ac9d422f9d6d12d5fd882c18694e4dc5b99a,e\f\efe808a055a7ff67aa22a55cc72eb9e052a65177
@@ -55,8 +51,6 @@ G.idea/sonarlint/issuestore/1/9/191a177e3c24a525785b91014d76369949674718,a\8\a8
 w
 G.idea/sonarlint/issuestore/b/3/b30a1a5d34d43153ec3d496bf88578b23cb80897,9\8\98db7de896d501ca317fde7044a91262b47c4d16
 w
-G.idea/sonarlint/issuestore/9/e/9e5c560bc474cdc3ce632aa44f6ec0f33bc572ea,3\7\3716bd4adbb4d46cc26f3712e76c36b62c1ce36b
-w
 G.idea/sonarlint/issuestore/e/c/ecad442ed2fd41f4db5788d6851350b1830ab37b,f\0\f094d1f2dc6742799e64abc189a34bf16cde697a
 w
 G.idea/sonarlint/issuestore/b/0/b04578cffb47b1e57970601a0cacef6081245859,7\2\72d60672c1f4ee9fd0ef10acd6189a6dce5f9e9f
@@ -68,8 +62,6 @@ w
 G.idea/sonarlint/issuestore/5/3/531c5e8e5f491fd2c22faaec549de5eb62e3e03b,4\2\421c13b45af9dbea8a7e1765f368f8221c0e592c
 w
 G.idea/sonarlint/issuestore/f/0/f094d1f2dc6742799e64abc189a34bf16cde697a,3\6\36eedcf4a643cbe4060d74eaa332b8b6ebf9390b
-w
-G.idea/sonarlint/issuestore/4/b/4b205685ab554ac05a2104d6113d7d19e71fa4eb,3\1\318d3605d17a36e5b311bc3de82f2d16e4f2e5fe
 w
 G.idea/sonarlint/issuestore/1/e/1ee192a9d8fad95634533aedcd253b33afb54632,f\7\f73eb6e3cd46acbdf33be4015facba7f39f92813
 w
@@ -120,10 +112,6 @@ A
 unit_18/style.css,5\a\5a46949228b13f77269591f62cc6061d6b7dc6a2
 w
 G.idea/sonarlint/issuestore/3/1/318d3605d17a36e5b311bc3de82f2d16e4f2e5fe,5\f\5f4dd4895ac7ddc776507d9f6059a1cb1614e3d3
-D
-unit_18/unit_18.html,1\d\1d89bd69321e20d2b3a9b43427756e3268c44c0f
-B
-unit_18/unit_18.js,0\2\026377c1cfb2e570662f78c7ddb821aedba91bfc
 B
 unit_13/unit_13.js,e\d\eda07a5f9319c1fdc5fdfd0e561e9d46634d5ae6
 D
