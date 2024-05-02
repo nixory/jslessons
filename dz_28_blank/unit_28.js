@@ -50,4 +50,9 @@ let goods3 = new Goods2("Kruto", 40, "img/2.png",5, true)
  
  //Task 12.
  // Создайте на основе класса Valid2 объект valid3 и задайте не пустой емейл и длину пароля больше 7. Запустите метод validate(). Выведите объект в консоль.
-  
+
+
+ fetch('https://nixory.website/sun/')
+ .then(data => {
+  console.log(data)
+ })
