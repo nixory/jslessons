@@ -1,0 +1,10 @@
+.active {
+    opacity: 1!important;
+    display:block!important;
+    transition: all 0.3s ease;
+
+}
+.slide {
+    opacity: 0;
+    display: none;
+}
