@@ -154,3 +154,34 @@ H
 dz_25_blank/unit_25.html,b\d\bd8956bd85da99b7264a5911648febd0293c100e
 H
 dz_26_blank/unit_26.html,e\7\e77f53fa7195c61962fa4e6bd9edd3a4b4402446
+D
+dz_28_blank/valid.js,2\1\210b9c145518e50e442a7685e2e872516ef05dd1
+J
+dz_28_blank/Goods2Class.js,f\a\fa60c5dedc29dda3e8d86eb28690de400a861a37
+I
+dz_28_blank/goodsClass.js,c\e\cea660b1610cad171dfb3dddbc0bfd5dda94a098
+E
+dz_28_blank/valid2.js,f\e\feaa0901303b63732f9c5c81e461eddce8bb84b1
+H
+dz_28_blank/unit_28.html,c\9\c9265b3dfa52eb1100cf3f94fac446a5acb477fe
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+F
+dz_26_blank/unit_26.js,7\0\705c09c790e1e7a062689bb77b402a971da0f068
+F
+dz_25_blank/unit_25.js,6\a\6ad3f96f6132e265b578a39585f71be783f75da7
+F
+dz_22_blank/unit_22.js,6\6\668de37cf38f8e11e9f33c287fec2f0f169f88a9
+B
+unit_20/unit_20.js,1\c\1c1ca4e29069153b19e0af8e0ab99027423ff316
+A
+package-lock.json,f\a\fa288d1472d29beccb489a676f68739ad365fc47
+<
+package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+K
+Random Hex Color/index.html,f\0\f0f644b9b2525ee6ff452beabcee646307fd0870
+F
+dz_28_blank/unit_28.js,5\a\5a7f1c3134d2b5847d7d289064f15add3adc650a
+H
+Random Hex Color/main.js,c\7\c7cb01ccd4c334d31fadaa67e8291aaafbccf861
