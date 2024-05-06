@@ -185,3 +185,33 @@ F
 dz_28_blank/unit_28.js,5\a\5a7f1c3134d2b5847d7d289064f15add3adc650a
 H
 Random Hex Color/main.js,c\7\c7cb01ccd4c334d31fadaa67e8291aaafbccf861
+A
+slider/index.html,f\4\f4a78f713e66ca6201c398b0a8af3d99471d2499
+@
+slider/style.css,4\6\46d4c0188d1102e665cae8351153e347ca6b0328
+>
+slider/main.js,6\1\6143876b9a58a18c49d3dbf5170970425f099044
+w
+G.idea/sonarlint/issuestore/c/7/c7cb01ccd4c334d31fadaa67e8291aaafbccf861,c\4\c41bb09c1289871a09bb75981208983a603cbd03
+w
+G.idea/sonarlint/issuestore/f/0/f0f644b9b2525ee6ff452beabcee646307fd0870,a\f\af2bb16a2080e1ba04dad2d1355b4b3fa8539c2b
+w
+G.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,e\d\ed67eb178d523a4b3f117dcbe0eda5196367ceec
+w
+G.idea/sonarlint/issuestore/5/a/5a7f1c3134d2b5847d7d289064f15add3adc650a,e\4\e456962303355eed0875268f4025a0f66099af5c
+w
+G.idea/sonarlint/issuestore/2/1/210b9c145518e50e442a7685e2e872516ef05dd1,6\e\6e8453265329691fb286cc227f04d591b9aa5c00
+w
+G.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a,9\d\9d19eaab4327edc07435a682d68ef383811840e5
+w
+G.idea/sonarlint/issuestore/c/e/cea660b1610cad171dfb3dddbc0bfd5dda94a098,d\d\dd62c7564442f854f9b5d1adbddd469142734943
+w
+G.idea/sonarlint/issuestore/f/a/fa60c5dedc29dda3e8d86eb28690de400a861a37,2\6\267d3046eb8740d83b84b9cc5805f29ccd5c446b
+w
+G.idea/sonarlint/issuestore/f/a/fa288d1472d29beccb489a676f68739ad365fc47,c\d\cdb55fb7b9550cf1c93c03e68dfe3882647e90dc
+w
+G.idea/sonarlint/issuestore/f/e/feaa0901303b63732f9c5c81e461eddce8bb84b1,b\0\b0c663ec0c78853d9171f47d0f2690a54f4ef27f
+H
+electro clock/index.html,2\4\24e82bef6fffd081c268cc899a43bc10b1be3778
+E
+electro clock/main.js,5\8\588ba2301227bc0af3c1ce48a5f0d893f64ddd01
